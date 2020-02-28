@@ -10,4 +10,9 @@ body {
     margin-right:auto;
     margin-top:30px;
 }
-.box
+.box{
+    z-index:2;
+    background: rgb(220,220,220);
+    opacity: 0.5;
+    position:relative;
+}
