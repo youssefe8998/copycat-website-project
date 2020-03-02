@@ -5,14 +5,78 @@ body {
 }
 
 .logo{
-    width:400px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:30px;
+    width: 400px;
+    position:relative;
+    left: 410px;
+    top: 30px; 
 }
 .box{
     z-index:2;
     background: rgb(220,220,220);
-    opacity: 0.5;
+    opacity: 0.2;
     position:relative;
+    left: 440px;
+    top: 27px;
+    width: 325px;
+    height: 230px;
+}
+.front-page{
+    font-family: "Arial";
+    text-align: center;
+    color:white;
+    position:relative;
+    top:25px;
+    right:9px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.sign-in-box{
+    z-index:2;
+    background: rgb(220,220,220);
+    opacity: 0.2;
+    position:relative;
+    left: 130px;
+    top:12px;
+    width:88px;
+    height:35px;
+}
+.sign-in{
+    font-family: "Arial";
+    text-align: center;
+    color:white;
+    position:relative;
+    top:5px;
+    right:9px;
+    font-weight:bold;
+    font-size: 22px;
+}
+.first-link{
+    font-family: "Arial";
+    text-align: center;
+    color:white;
+    position:relative;
+    top:5px;
+    right:9px;
+    font-weight:bold;
+    font-size:100%;
+}
+.second-link{
+    font-family: "Arial";
+    text-align: center;
+    color:white;
+    position:relative;
+    top:5px;
+    right:9px;
+    font-weight:bold;
+    font-size:100%;
+}
+.third-link{
+    font-family:"Arial";
+    text-align:center;
+    color:white;
+    position:relative;
+    top:5px;
+    right:9px;
+    font-weight:bold;
+    font-size:100%;
 }
